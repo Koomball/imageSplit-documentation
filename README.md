@@ -18,3 +18,7 @@ for example if `1 = Grass` and `2 = Rock` and you want the first two tiles to be
 ```
 2-2-1/1-1-1/1-1-1
 ```
+
+## `POST` Add a new tile.
+Add a new tile to the tileset. tile ID will be the next available in numerical order. <br>
+address: `menzico.com/imageSplit/add/:APIKEY/:TILESETID/:TILEIMAGEURL` <br>
