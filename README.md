@@ -9,7 +9,7 @@ address: `menzico.com/imageSplit/list/:APKIKEY/:TILESETID`
 Returns a image of the tile. <br>
 address: `menzico.com/imageSplit/list/:APKIKEY/:TILESETID/:TILEID`
 
-## `POST` Generate an image.
+## `GET` Generate an image.
 Sends a number set to the API to generate an image. <br>
 address: `menzico.com/imageSplit/gen/:APIKEY/:TILESETID/:TILESETCODE` <br>
 number sets must be designed like the example below: <br>
